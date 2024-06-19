@@ -1,0 +1,16 @@
+# Ignorar archivos de configuración locales de IDEs
+.vscode/
+.idea/
+
+# Ignorar archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos y carpetas específicos de Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignorar otros archivos o carpetas que desees
+node_modules/
+dist/
